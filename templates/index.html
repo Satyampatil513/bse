@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trader</title>
+</head>
+<body>
+    <form action="/execute" method="POST">
+        <label>Trading price:</label>
+        <input type="number" name="trading_price" required><br>
+
+        <label>Buying Team No.:</label>
+        <input type="number" name="buyer" required><br>
+
+        <label>Selling Team No.:</label>
+        <input type="number" name="seller" required><br>
+
+        <label>No. of stocks to be traded:</label>
+        <input type="number" name="No_of_stocks" required><br>
+
+        <input type="submit" value="Execute">
+    </form>
+</body>
+</html>
